@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<div>
+    <ul>
+      <li onclick="findReplica('', show)">Все</li>  
+      <li onclick="findReplica('Городничий', show)">Городничий</li>  
+      <li onclick="findReplica('Аммос Федорович', show)">Аммос Федорович</li>  
+      <li onclick="findReplica('Артемий Филиппович', show)">Артемий Филиппович</li>  
+      <li onclick="findReplica('Лука Лукич', show)">Лука Лукич</li>  
+    </ul>
+</div>
+
+<div class="text-wrapper">
+    <div class="text  private-replica-wrapper">
+        <p id="private-replica"></p>
+    </div>
+    <div class="text all-replicas-wrapper">
+        <p id="all-replicas"></p>
+    </div>
+</div>
+
+<script src="index.js"></script>    
+
+</body>
